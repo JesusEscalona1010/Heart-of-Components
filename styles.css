@@ -5,14 +5,39 @@ body {
     font-family: Arial, sans-serif;
    }
 
-   .notificaciones{
-    
+   .hola {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+   }
+
+   .n1 {
+    position: relative;
+    margin: 10px;
+    color: black;
+   }
+
+   .n2 {
+    position: relative;
+    margin: 10px;
+    color: black;
+   }
+
+   .n3 {
+    position: relative;
+    margin: 10px;
+    color: black;
+   }
+
+   .n4 {
+    position: relative;
+    margin: 10px;
+    color: black;
    }
 
    .Barra-de-busqueda {
     position: relative;
-    width: 100%;
-    max-width: 550px;
+    width: 60%;
+    max-width: 400px;
     margin: -80px auto;
     box-sizing: border-box;
     padding: 10px;
