@@ -12,31 +12,76 @@ body {
 
    .n1 {
     position: relative;
-    margin: 10px;
+    margin: 0px;
     color: black;
+    text-decoration: none;
+    color: black;
+    padding: 2px 7px;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    transition: all .3s ease-in-out;
+    width: 10px;
    }
+
+   .n1:hover {
+    background-color: blue;
+   }
+   
 
    .n2 {
     position: relative;
-    margin: 10px;
+    margin: 0px;
     color: black;
+    text-decoration: none;
+    color: black;
+    padding: 2px 7px;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    transition: all .3s ease-in-out;
+    width: 10px;
+   }
+
+   .n2:hover {
+    background-color: blue;
    }
 
    .n3 {
     position: relative;
-    margin: 10px;
+    margin: 0px;
     color: black;
+    text-decoration: none;
+    color: black;
+    padding: 2px 7px;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    transition: all .3s ease-in-out;
+    width: 10px;
+   }
+
+   .n3:hover {
+    background-color: blue;
    }
 
    .n4 {
     position: relative;
-    margin: 10px;
+    margin: 0px;
     color: black;
+    text-decoration: none;
+    color: black;
+    padding: 2px 7px;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    transition: all .3s ease-in-out;
+    width: 10px;
+   }
+
+   .n4:hover {
+    background-color: blue;
    }
 
    .Barra-de-busqueda {
     position: relative;
-    width: 60%;
+    width: 20%;
     max-width: 400px;
     margin: -80px auto;
     box-sizing: border-box;
@@ -71,6 +116,21 @@ body {
     border-radius: 50%;
    }
 
+   .Buscar {
+    position: absolute;
+    left: 1020px;
+    top: 20px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 12px;
+   }
+
    .botones-superiores {
     position: absolute;
     top: 20px;
@@ -92,4 +152,81 @@ body {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+   }
+
+   .banner {
+    position: relative;
+    widows: 100%;
+    height: calc(108vh - 50px);
+    z-index: -1;
+   }
+
+   .capa {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+
+   .contenido {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .contenido h2 {
+    margin: 20px;
+    font-size: 30px;
+   }
+   
+   .contenido p {
+    margin: 20px;
+    font-size: 20px;
+   }
+
+   .cuenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   }
+   
+   a:hover {
+    color: black;
+   }
+
+   .Reseñas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   }
+   
+   a:hover {
+    color: black;
+   }
+   
+   h3 {
+    margin-bottom: 10px;
+   }
+   
+   p {
+    margin: 20px;
    }
