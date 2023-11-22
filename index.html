@@ -24,8 +24,8 @@
     </div>
 
     <div class="botones-superiores">
-        <a class="inicioSesion" href="file:///C:/Users/elkir/OneDrive/Documentos/inicio%20de%20sesi%C3%B3n/index.html" target="_blank">Inicio De Sesión</a>
-        <a class="registro" href="">Registrarse</a>
+        <a class="inicioSesion" href="file:///C:/Users/elkir/OneDrive/Documentos/inicio%20de%20sesi%C3%B3n/index.html">Inicio De Sesión</a>
+        <a class="registro" href="file:///C:/Users/elkir/OneDrive/Documentos/Registro/index.html">Registrarse</a>
      </div>
 
 
@@ -45,8 +45,17 @@
         <img src="Pablo.png" height="100%" class="imagen">
     </div>
 
-
-
+    <div class="servicio">
+        <h3>Servicios</h3>
+        <p>El servicios que ofrecemos es la venta de todo
+            lo que tu necesitas para tu computador
+        </p>
+    </div>
+    
+    <div class="precios">
+        <h4>Precios</h4>
+        <p>Los precios varian depediendo del producto que elijas</p>
+    </div>
     <footer>
         <div class="cuenta">
           <a href="mailto:jesusescalonav@iemua.edu.co">jesusescalonav@iemua.edu.co</a>
@@ -57,8 +66,10 @@
         <p>"Gracias por la excelente atención, estoy encantado con el servicio"</p>
         <p>"Excelente trabajo, realmente impresionado con su producto"</p>
      </div>
-
-
-
 </body>
+
+<script>
+    lst =JSON.parse(localStorage.getItem("list"));
+    console.log(typeof(lst));
+</script>
 </html>

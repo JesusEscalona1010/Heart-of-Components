@@ -14,9 +14,9 @@ body {
     position: relative;
     margin: 0px;
     background-color: #008CBA;
-    color: black;
+    color: white;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 2px 7px;
     text-transform: uppercase;
     border: 1px solid #008CBA;
@@ -34,9 +34,9 @@ body {
     position: relative;
     margin: 0px;
     background-color: #008CBA;
-    color: black;
+    color: white;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 2px 7px;
     text-transform: uppercase;
     border: 1px solid #008CBA;
@@ -53,9 +53,9 @@ body {
     position: relative;
     margin: 0px;
     background-color: #008CBA ;
-    color: black;
+    color: white;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 2px 7px;
     text-transform: uppercase;
     border: 1px solid #008CBA;
@@ -72,9 +72,9 @@ body {
     position: relative;
     margin: 0px;
     background-color: #008CBA;
-    color: black;
+    color: white;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 2px 7px;
     text-transform: uppercase;
     border: 1px solid #008CBA;
@@ -243,3 +243,27 @@ body {
     justify-content: center;
     align-items: center;
    }
+
+.servicio h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.servicio p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.precios h4 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.precios p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    font-size: 20px;
+}
